@@ -1,8 +1,26 @@
 aid: zeal
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zeal.png
 name: Zeal
-description: 'Zeal is a company surfaced as a portfolio company of northzone and added to the API Evangelist
-  network as a stub for enrichment. Sector: infra-devtools. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Zeal is a self-custodial onchain crypto wallet built for everyday life, pairing
+  a non-custodial multi-chain wallet with real-world spending through a Gnosis Pay Visa
+  debit card. Users hold USD and EUR stablecoins, earn yield via DeFi protocols such as
+  Sky and Aave, and spend in 150+ countries with cashback, all while retaining full control
+  of their own keys. Security features include Safety Checks, a Privacy Shield, biometric
+  authentication, real-time transaction alerts and card freeze. Surfaced as a portfolio
+  company of Northzone and added to the API Evangelist network for enrichment; as of this
+  pass Zeal publishes a consumer product and help documentation but no public API, SDK,
+  OpenAPI specification, or developer platform.'
 url: https://raw.githubusercontent.com/api-evangelist/zeal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Infra Devtools
+- Cryptocurrency
+- Wallet
+- DeFi
+- Payments
+- Web3
+- Stablecoins
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,14 @@ maintainers:
 common:
 - type: Website
   url: https://www.zeal.app
+- type: Documentation
+  url: https://docs.zeal.app
+- type: GitHubOrganization
+  url: https://github.com/zealwallet
+- type: DomainSecurity
+  url: security/zeal-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
